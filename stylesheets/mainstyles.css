@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+    background-color: #fcdfe7;
+    color: red;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 10px;
+}
+
+.mainHeads{
+    text-align: center;
+    color: #d31b1b ;
+}
+
+
+.fit-image{
+    max-width: 100%;
+    object-fit: cover;
+    height: 300px; /* only if you want fixed height */
+    }
