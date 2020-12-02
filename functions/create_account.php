@@ -17,7 +17,6 @@ if(isset($_POST['register'])){
     }
 
     $username_exists = "SELECT * from users WHERE user_name = '$user_name'";
-    printf("%s", $username_exists);
 
     $count_username = $mysqli->query($username_exists);
 
@@ -29,7 +28,9 @@ if(isset($_POST['register'])){
     $commandText = "INSERT INTO users (password, first_name, last_name, user_name, dob)
     VALUES ('$password', '$first_name', '$last_name', '$user_name', '$dob');";
     $result = $mysqli->query($commandText);
+
     $_SESSION['username'] = $user_name;
+
     echo "<script> window.open('home.php', '_self') </script>";
 
 }

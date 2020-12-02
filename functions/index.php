@@ -55,7 +55,6 @@
 </script>
 
 <body style="background-color: #fcdfe7; color: red;">
-<div id='heart'>💕</div>
     <div class="row">
         <div class="col-12 text-center">
              <h1 class="mainHeads">Welcome</h1>
